@@ -28,6 +28,10 @@ def main():
         source(3, [[0, 1], [1, 2]], 2), source(3, [[]], 3),
         source(3, [[0, 1, 2]], 1), source(4, [[0], [1], [2], [3]], 4),
         source(4, [[0], [1], [2], [3]], 3), source(1, [[0]], 7),
+        {"universe": [2, 4], "family": [[4]], "k": 1},
+        {"universe": [2, 4], "family": [[2], [4]], "k": 1},
+        {"universe": ["red", "blue"], "family": [["blue"]], "k": 1},
+        {"universe": ["red", "blue"], "family": [["red"], ["blue"]], "k": 2},
     ]
     cases = [{"kind": "edge", "source": x} for x in edges]
     seen = {json.dumps(x, sort_keys=True) for x in edges}

@@ -68,6 +68,8 @@ def run(candidate, obj, extract=False):
 
 
 def generated_cases():
+    yield {"universe": [2, 4], "family": [[4]], "k": 1}
+    yield {"universe": ["red", "blue"], "family": [["red"], ["blue"]], "k": 2}
     seeds = range(3021, 3071)
     for seed in seeds:
         rng = random.Random(seed)
@@ -100,7 +102,7 @@ def main(candidate):
                 assert got.get("set") in expected, (source, answer, got)
                 kinds.add("witness")
             count += 1
-    print(f"verification passed: 50 fresh seeded instances, {count} target outputs, kinds={sorted(kinds)}")
+    print(f"verification passed: 52 instances (50 fresh seeded, 2 labeled), {count} target outputs, kinds={sorted(kinds)}")
 
 
 if __name__ == "__main__":

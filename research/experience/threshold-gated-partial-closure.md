@@ -8,7 +8,7 @@ For a relation subset containing element attributes plus markers C,D, keep famil
 
 ## Evidence and status
 
-Newly derived in [round 001](../../campaigns/hitting-set-bcnf-violation/rounds/001/round.md), with [proof](../../campaigns/hitting-set-bcnf-violation/work/proof.md) and finite [verification](../../campaigns/hitting-set-bcnf-violation/work/verification.md). Status: unreviewed candidate lemma; correctness and priority await independent review. This is not a claim about unrelated FD gadgets.
+Newly derived in [round 001](../../campaigns/hitting-set-bcnf-violation/rounds/001/round.md), with [proof](../../campaigns/hitting-set-bcnf-violation/work/proof.md) and finite [verification](../../campaigns/hitting-set-bcnf-violation/work/verification.md). The [initial review](../../campaigns/hitting-set-bcnf-violation/reviews/initial/review.md) supported the closure lemma on canonical labels but found an explicit-label implementation defect, repaired on 2026-09-23. Status: repair pending focused re-review; priority remains qualified by incomplete literature coverage. This is not a claim about unrelated FD gadgets.
 
 ## Consequence for search
 
@@ -17,3 +17,4 @@ A threshold can guard a projected dependency while keeping auxiliary state outsi
 ## Use history
 
 - 2026-09-23: derived and used in round 001; passed finite checks, independent review pending.
+- 2026-09-23: initial review found a label-domain defect; the same mechanism was repaired and rechecked, with focused re-review pending.

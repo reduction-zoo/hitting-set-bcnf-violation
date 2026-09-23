@@ -270,6 +270,76 @@
     "expected": "witness"
   },
   {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        2,
+        4
+      ],
+      "family": [
+        [
+          4
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        2,
+        4
+      ],
+      "family": [
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        "red",
+        "blue"
+      ],
+      "family": [
+        [
+          "blue"
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        "red",
+        "blue"
+      ],
+      "family": [
+        [
+          "red"
+        ],
+        [
+          "blue"
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
     "kind": "random",
     "seed": 0,
     "source": {

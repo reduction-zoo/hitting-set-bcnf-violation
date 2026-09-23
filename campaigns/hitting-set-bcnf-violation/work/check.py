@@ -20,14 +20,15 @@ def source_valid(a, out):
     if set(out) != {"set"} or type(out["set"]) is not list:
         return False
     chosen = out["set"]
-    return (all(type(i) is int for i in chosen)
-            and len(chosen) == len(set(chosen)) and chosen == sorted(chosen)
+    return (all(type(i) in (int, str) for i in chosen)
+            and len(chosen) == len(set(chosen))
+            and chosen == [i for i in a["universe"] if i in chosen]
             and set(chosen) <= set(a["universe"]) and len(chosen) <= a["k"]
             and all(set(chosen) & set(edge) for edge in a["family"]))
 
 
 def source_oracle(a):
-    vars_ = {i: Bool(f"chosen_{i}") for i in a["universe"]}
+    vars_ = {i: Bool(f"chosen_{j}") for j, i in enumerate(a["universe"])}
     solver = Solver()
     for edge in a["family"]:
         solver.add(Or(*(vars_[i] for i in edge)))
@@ -37,7 +38,7 @@ def source_oracle(a):
         return None
     if result != sat:
         raise RuntimeError(f"source solver returned {result}")
-    witness = sorted(i for i, var in vars_.items() if is_true(solver.model().eval(var)))
+    witness = [i for i, var in vars_.items() if is_true(solver.model().eval(var))]
     if not source_valid(a, {"set": witness}):
         raise AssertionError("solver supplied invalid hitting set")
     return witness
@@ -124,7 +125,7 @@ def self_test():
             yes += 1
             assert source_valid(a, {"set": found})
             assert not source_valid(a, {"no_solution": True})
-            assert not source_valid(a, {"set": [len(a["universe"])]})
+            assert not source_valid(a, {"set": ["absent-member"]})
         else:
             no += 1
             assert source_valid(a, {"no_solution": True})

@@ -5,7 +5,8 @@ import sys
 
 def forward(source):
     universe, family, k = source["universe"], source["family"], source["k"]
-    elements = [f"a{i}" for i in universe]
+    elements = [f"a{i}" for i in range(len(universe))]
+    positions = {member: i for i, member in enumerate(universe)}
     sets = [f"b{j}" for j in range(len(family))]
     attributes = elements + sets + ["C", "D"]
     fds = []
@@ -14,8 +15,8 @@ def forward(source):
         fds.append({"lhs": lhs, "rhs": rhs})
 
     for j, edge in enumerate(family):
-        for i in edge:
-            add([f"a{i}"], [f"b{j}"])
+        for member in edge:
+            add([f"a{positions[member]}"], [f"b{j}"])
     add(sets, ["C"])
 
     if k < len(universe):
@@ -36,7 +37,7 @@ def extract(source, target_solution):
     if target_solution == {"no_solution": True}:
         return {"no_solution": True}
     x = set(target_solution["X"])
-    selected = [i for i in source["universe"] if f"a{i}" in x]
+    selected = [member for i, member in enumerate(source["universe"]) if f"a{i}" in x]
     if len(selected) > source["k"] or any(not set(selected).intersection(edge) for edge in source["family"]):
         raise ValueError("target witness does not decode to a hitting set")
     return {"set": selected}
