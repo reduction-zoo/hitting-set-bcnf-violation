@@ -1,0 +1,3283 @@
+[
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [],
+      "family": [],
+      "k": 0
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0
+      ],
+      "family": [],
+      "k": 0
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0
+      ],
+      "family": [
+        []
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0
+      ],
+      "family": [
+        [
+          0
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0
+      ],
+      "family": [
+        [
+          0
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        []
+      ],
+      "k": 3
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "k": 4
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 0,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 1,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [
+          0
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 2,
+    "source": {
+      "universe": [
+        0
+      ],
+      "family": [
+        []
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 3,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 4,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 5,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 6,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 7,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 8,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 9,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 10,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [],
+      "k": 3
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 11,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 12,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 13,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 14,
+    "source": {
+      "universe": [
+        0
+      ],
+      "family": [
+        [],
+        [
+          0
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 15,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 16,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 17,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 18,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [
+          0,
+          1
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 19,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [],
+      "k": 6
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 20,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 21,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 23,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        []
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 24,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "k": 5
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 25,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [],
+      "k": 1
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 26,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 27,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 29,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [
+          2,
+          4
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 30,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          4
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 31,
+    "source": {
+      "universe": [
+        0
+      ],
+      "family": [
+        [],
+        [
+          0
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 33,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 34,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 35,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 36,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [],
+      "k": 0
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 37,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 38,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 39,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [],
+        [
+          0
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 40,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 41,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 4
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 42,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        []
+      ],
+      "k": 5
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 44,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 45,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 47,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 48,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 50,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 51,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 52,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [],
+      "k": 3
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 53,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 58,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 60,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 61,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 62,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          3
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 63,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 4
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 64,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 65,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 68,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "k": 5
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 69,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [],
+      "k": 0
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 71,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 74,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 75,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 76,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 77,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 78,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [
+          1
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 79,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 80,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 81,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "k": 5
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 83,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 84,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 85,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [
+          0
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 87,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 88,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 92,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 93,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 94,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          2,
+          3
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 95,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "k": 4
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 96,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 98,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 99,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 101,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 102,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 103,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 105,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 106,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 108,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [
+          0,
+          1
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 109,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 110,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 112,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 114,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [
+          0
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 115,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [],
+        [
+          1,
+          2
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 116,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 117,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        []
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 118,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [
+          0,
+          2
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 119,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 120,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4
+        ]
+      ],
+      "k": 5
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 122,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "k": 5
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 124,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 125,
+    "source": {
+      "universe": [
+        0,
+        1
+      ],
+      "family": [
+        [
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 126,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [],
+      "k": 4
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 129,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "k": 1
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 130,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 131,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2
+      ],
+      "family": [
+        [],
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "k": 3
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 132,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "k": 0
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 133,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "k": 2
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 134,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "k": 4
+    },
+    "expected": "no_solution"
+  },
+  {
+    "kind": "random",
+    "seed": 135,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "family": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "k": 6
+    },
+    "expected": "witness"
+  },
+  {
+    "kind": "random",
+    "seed": 136,
+    "source": {
+      "universe": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": [
+        [],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "k": 5
+    },
+    "expected": "no_solution"
+  }
+]
