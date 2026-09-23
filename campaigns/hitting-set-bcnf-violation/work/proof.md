@@ -6,7 +6,7 @@ Let a source instance have an explicitly ordered universe `U=(u_0,...,u_{n-1})`,
 
 For each index `0≤i<n`, create attribute `a_i` representing input element `u_i`; for each family set `E_j`, create auxiliary attribute `b_j`. Create markers `C,D`. Let `R={a_i:0≤i<n}∪{C,D}`; the `b_j` and all threshold attributes are outside `R`. Add `a_i → b_j` for every incidence `u_i∈E_j`, then `{b_0,...,b_{m-1}} → C`. The latter has empty left side when the family is empty.
 
-When `k<n`, put `q=k+1` and create `t_{i,j}` for `1≤i≤n` and `1≤j≤min(i,q)`. Add `a_{i-1} → t_{i,1}` for every `i`; add `t_{i-1,j} → t_{i,j}` whenever `1≤j≤min(i-1,q)`; add `{t_{i-1,j-1},a_{i-1}} → t_{i,j}` for `2≤j≤min(i,q)`. Add `{C,t_{n,q}} → D`. When `k≥n`, omit all threshold attributes and this last dependency. Always add `{C,D} → {a_i:i∈U}`. This also specifies the `n=0` and empty-family cases without exceptions.
+When `k<n`, put `q=k+1` and create `t_{i,j}` for `1≤i≤n` and `1≤j≤min(i,q)`. Add `a_{i-1} → t_{i,1}` for every `i`; add `t_{i-1,j} → t_{i,j}` whenever `1≤j≤min(i-1,q)`; add `{t_{i-1,j-1},a_{i-1}} → t_{i,j}` for `2≤j≤min(i,q)`. Add `{C,t_{n,q}} → D`. When `k≥n`, omit all threshold attributes and this last dependency. Always add `{C,D} → {a_i:0≤i<n}`. This also specifies the `n=0` and empty-family cases without exceptions.
 
 ## Closure lemmas
 

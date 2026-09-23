@@ -16,10 +16,10 @@ Observation: the threshold-gated partial closure behaves as predicted on all che
 
 Independent review [initial](../../reviews/initial/review.md) returned **revise**. Its legal input `U=[2,4]`, `E=[[4]]`, `k=1` exposed an implementation and prepared-contract defect: forward FDs mentioned absent `a0,a1`. The review counterexample failed before repair and remains in commit `6a04629`. The repair indexes arbitrary explicit element names in F, decodes original names in G, and expands the independently labeled corpus. The [review check](../../reviews/initial/check_domain.py) now passes; so do 125 prepared instances/202 outputs and 52 additional instances/77 outputs. The proof and bounds now state the indexing map. This is a repair of the same threshold-gated mechanism, not a new round.
 
-Outcome: supported on the repaired implementation, pending focused re-review. Round 001 is one mechanism: threshold-gated projected dependency.
+Outcome: supported on the repaired implementation, with an [independent advance review](../../reviews/label_repair/review.md) and a compiled, inspected [paper](../../work/manuscript.pdf). Round 001 is one mechanism: threshold-gated projected dependency. At closeout, the prepared loop exercised 125 source instances and 202 target outputs, the additional Z3 target loop exercised 52 instances and 77 outputs, and the reviewer checked all outputs on three labeled cases. These counts measure finite evidence; the proof handles arbitrary legal instances and target outputs.
 
-Experience extraction: [threshold-gated partial closure](../../../../research/experience/threshold-gated-partial-closure.md) created on 2026-09-23 as an unreviewed reusable lemma; no board file was edited.
+Experience extraction: [threshold-gated partial closure](../../../../research/experience/threshold-gated-partial-closure.md) created and updated on 2026-09-23, with independent review context; no board file was edited.
 
 ## Next action
 
-Request focused re-review of the label repair and its consequences; advance to writing only if the revised rule is accepted.
+Hand off the completed rule and paper for expert review. Historical comparison with the inaccessible full 1979 journal text remains open; no further construction work is indicated by the current evidence.
