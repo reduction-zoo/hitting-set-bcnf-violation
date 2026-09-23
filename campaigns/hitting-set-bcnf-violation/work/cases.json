@@ -255,6 +255,21 @@
     "expected": "no_solution"
   },
   {
+    "kind": "edge",
+    "source": {
+      "universe": [
+        0
+      ],
+      "family": [
+        [
+          0
+        ]
+      ],
+      "k": 7
+    },
+    "expected": "witness"
+  },
+  {
     "kind": "random",
     "seed": 0,
     "source": {
