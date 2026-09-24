@@ -1,6 +1,6 @@
 # Hitting Set → Boyce-Codd normal form violation
 
-**Status:** `ready_for_expert_review` · **Research model:** `GPT-6 family; exact variant unavailable` · **Submitted:** 2026-09-23
+**Status:** `ready_for_expert_review` · **Research model:** `gpt-6-sol` · **Submitted:** 2026-09-23
 
 The public campaign supplies deterministic polynomial-time construction and recovery for the fixed Hitting Set to Boyce-Codd normal form violation contract. Every valid target output recovers a valid source output, including NO-SOLUTION.
 
